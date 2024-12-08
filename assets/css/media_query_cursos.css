@@ -1,0 +1,159 @@
+@media (max-width: 420px) {
+.main-courses {
+    height: 1100px;
+}
+.courses {
+    margin-left: 10px;
+}
+.div {
+    height: 132px;
+}
+.space {
+    margin-left: 15px;
+}
+.title-1 {
+    font-size: 25px;
+    margin-left: 40px;
+}
+.title-ta {
+    font-size: 13px;
+}
+.text_courses {
+    font-size: 8px;
+    margin-left: 2px;
+}
+.subtitle-1 {
+    font-size: 10px;
+}
+.button {
+    width: 300px;
+    height: 30px;
+    margin: 20px 0 20px 50px;
+    font-size: 10px;
+}
+hr {
+    margin-left: 40px;
+}
+.course-eja {
+    width: 45%;
+    height: 180px;
+}
+.form {
+    margin-left: 25%;
+}
+#search {
+    font-size: 9px;
+    padding: 5px 6px 2px 5px;
+}
+.form i {
+    font-size: 10px;
+    position: absolute;
+    line-height: 49px;
+    margin-left: 28%;
+}
+}
+
+@media (min-width: 420px) and (max-width: 740px) {
+.main-courses {
+    height: 1300px;
+}
+.courses {
+    margin-left: 10px;
+}
+.div {
+    height: 132px;
+}
+.space {
+    margin-left: 12px;
+}
+.title-1 {
+    font-size: 26px;
+    margin-left: 40px;
+}
+.title-ta {
+    margin-top: 3px;
+    font-size: 14px;
+}
+.text_courses {
+    font-size: 10px;
+    margin-left: 12px;
+}
+.button {
+    width: 450px;
+    height: 35px;
+    font-size: 12px;
+}
+hr {
+    margin-left: 40px;
+}
+.course-eja {
+    width: 45%;
+    height: 180px;
+}
+.form {
+    margin-left: 30%;
+}
+#search {
+    font-size: 14;
+    padding: 5px 50px 5px 16px;
+}
+.form i {
+    font-size: 15px;
+    position: absolute;
+    line-height: 51px;
+    margin-left: 33.5%;
+}
+}
+
+@media (min-width: 740px) and (max-width: 1250px) {
+.main-courses {
+    height: 1340px;
+}
+.courses {
+    margin-left: 10px;
+}
+.div {
+    height: 132px;
+}
+.space {
+    margin-left: 55px;
+}
+.title-1 {
+    font-size: 28px;
+    margin-left: 70px;
+}
+.title-ta {
+    font-size: 18px;
+}
+.text_courses {
+    font-size: 13px;
+    margin-left: 12px;
+}
+.subtitle-1 {
+    font-size: 22px;
+}
+.button {
+    height: 45px;
+    font-size: 14px;
+}
+hr {
+    margin-left: 70px;
+}
+.course-eja {
+    width: 45%;
+    height: 180px;
+}
+.form {
+    margin-left: 56%;
+}
+#search {
+    font-size: 14;
+    padding: 10px 120px 10px 16px;
+}
+.form i {
+    font-size: 15px;
+    position: absolute;
+    line-height: 52px;
+    margin-left: 22.5%;
+}
+}

@@ -1,0 +1,150 @@
+@media (max-width: 750px) {
+main {
+    width: 93%;
+    height: 980px;
+    margin-right: 10px;
+}
+.aside {
+    width: 93%;
+    height: 100px;
+    background-size: 35% 112px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.new {
+    width: 100%;
+    font-size: 17px;
+}
+.new-courses {
+    margin-top: 13px;
+    margin-left: 50px;
+    margin-right: 0;
+    font-size: 9px;
+}
+.new-date {
+    margin-top: 13px;
+    font-size: 10px;
+    margin-left: 15%;
+}
+.registrations {
+    margin-left: 25px;
+    margin-top: 13px;
+    font-size: 10px;
+}
+.new-highlights {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 11px;
+}
+.opening-hours {
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+.opening-hours h4 {
+    font-size: 17px;
+}
+.opening-hours p {
+    display: inline-block;
+    margin-left: 2px;
+    font-size: 11px;
+}
+.come-study {
+    margin: 30px 20px 20px 22px;
+}
+.come-study h1 {
+    font-size: 18px;
+}
+.come-study h2{
+    font-size: 16px;
+    margin-left: 20px;
+}
+.come-study h3 {
+    font-size: 12px;
+    margin: 13px 0;
+}
+.come-study p {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.front-desk {
+    background-color: #b2e5e7c6;
+    padding: 7px 30px;
+    margin: 30px 20px 40px 35px;
+    font-size: 13px;
+}
+.front-desk h3 {
+    font-size: 27px;
+}
+.front-desk p {
+    margin-top: 5px;
+} 
+}
+
+@media (min-width: 750px) and (max-width: 1100px) {
+.aside {
+    background-size: 35% 182px;
+}
+main {
+    height: 1770px;
+}
+.new {
+    font-size: 27px;
+    margin-left: 50px;
+}
+.new-courses {
+    width: 25%;
+    margin-top: 14px;
+    margin-left: 7%;
+    font-size: 16px;
+}
+.new-date {
+    font-size: 16px;
+    margin-top: 14px;
+    margin-left: 70px;
+}
+.registrations {
+    font-size: 16px;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+.new-highlights {
+    font-size: 18px;
+}
+.come-study {
+    margin-right: 20px;
+    margin-left: 65px;
+}
+.opening-hours {
+    margin-left: 45px;
+    margin-right: 20px;
+}
+.opening-hours h4 {
+    font-size: 20px;
+}
+.opening-hours p {
+    margin-left: -2px;
+    font-size: 17.8px;
+}
+}
+    
+@media (min-width: 1100px) and (max-width: 1400px) {
+.new {
+    margin-left: 30px;
+}
+.new-courses {
+    width: 25%;
+    margin-top: 9px;
+    margin-left: 7%;
+    font-size: 25px;
+}
+.new-date {
+    font-size: 28px;
+    margin-top: 7px;
+    margin-left: 67px;
+    text-align: center;
+}
+.registrations {
+    margin-top: 8px;
+    margin-left: 7px;
+    }
+}

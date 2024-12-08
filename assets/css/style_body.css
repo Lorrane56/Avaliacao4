@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+main {
+    background-color: rgb(252, 252, 252);
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 97%;
+    height: 1520px;
+    border-radius: 5px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.aside {
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/2112245-banner-em-branco-com-confete-dourado-isolado-no-fundo-branco-fundo-festivo-feliz-aniversario-conceito-vetor.jpg');
+    background-size: 32% 202px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    background-color: rgba(245, 231, 231, 0.959);
+    width: 97%;
+    height: 180px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    color: #63bd;
+}
+.new {
+    width: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.new-courses {
+    width: 25%;
+    margin-top: 7px;
+    margin-left: 7%;
+    font-size: 30px;
+}
+.new-date {
+    font-size: 32px;
+    margin-top: 5px;
+    margin-left: 275px;
+    text-align: center;
+}
+.registrations {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.new-highlights {
+    width: 100%;
+    text-align: center;
+}
+.empty {
+    height: 0.5%;
+}
+.opening-hours {
+    background-color: #b2e5e7c6;
+    padding: 7px 25px;
+    margin: 20px 30px 20px 85px;
+    border-radius: 20px;
+}
+.opening-hours h4 {
+    font-size: 28px;
+    color: #971111;
+    font-weight: 500;
+}
+.opening-hours p {
+    color: rgb(34, 29, 29);
+    display: inline;
+    margin-left: 90px;
+    font-size: 23px;
+}
+.come-study {
+    color: #863535;
+    background-color: #b2e5e7c6;
+    padding: 7px 25px;
+    margin: 20px 30px 20px 75px;
+    text-align: justify;
+    border-radius: 20px;
+}
+.come-study h1 {
+    text-align: center;
+    font-size: 32px;
+}
+.come-study h2{
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+.come-study h3 {
+    font-size: 22px;
+    margin: 13px 0;
+}
+.come-study p {
+    margin-bottom: 10px;
+}
+.front-desk {
+    background-color: #b2e5e7c6;
+    padding: 7px 30px;
+    margin: 80px 30px 40px 75px;
+    border-radius: 20px;
+    text-align: justify;
+    font-size: 22px;
+}
+.front-desk h3 {
+    font-size: 34px;
+    font-weight: 400;
+    color: #8f0606;
+}
+.front-desk p {
+    margin-top: 5px;
+    color: #350404;
+}

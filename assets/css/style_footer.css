@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin-top: 20px;
+    color: #fff;
+    background-color: rgb(59, 55, 55);
+    padding: 10px;
+    font-family: 'Parkinsans';
+    font-style: normal;
+    font-weight: 300 800;
+    border-radius: 3px;
+}
+.space-footer {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.etc {
+    display: inline;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.logo-rodape {
+    width: 60px;
+    height: 32px;
+    margin: auto;
+}
+.contacts {
+    display: inline;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+#copyright {
+    font-size: 12px;
+    margin: auto;
+    margin-top: 10px;
+}
+.footer hr {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 105px;
+}
+.side-right {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.side-right p {
+    font-size: 15.6px;
+    margin-bottom: 10px;
+}
+.icon-p {
+    display: block;
+}
+#p-footer {
+    font-size: 17px;
+    margin-top: 20px;
+}
+.icons-footer {
+    font-size: 26px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+@media (max-width: 750px) {
+.etc {
+    font-size: 15px;
+}
+.logo-rodape {
+    width: 35px;
+    height: 18px;
+}
+#copyright {
+    font-size: 10px;
+    margin-left: 85px;
+}
+.side-right p {
+    font-size: 14px;
+}
+.footer hr {
+    margin-left: 29px;
+}
+.side-right i {
+    font-size: 13px;
+    margin-left: -2px;
+}
+#p-footer {
+    font-size: 14px;
+    margin-top: 35px;
+}
+}
+@media (min-width: 750px) and (max-width: 1100px) {
+.side-right i {
+    margin-left: 38px;
+}
+#p-footer {
+    font-size: 18px;
+    margin-left: 60px;
+}
+.icons-footer {
+    font-size: 20px;
+}
+}

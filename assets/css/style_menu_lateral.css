@@ -1,0 +1,65 @@
+.side-menu {
+    background-color: rgba(213, 224, 233, 0.829);
+    width: 92px;
+    height: 100%;
+    padding: 40px 0 40px 1%;
+    font-size: 18px;
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    font-style: normal;
+    box-shadow: 5px 0 7px rgba(106, 196, 173, 0.692);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s;
+    white-space: nowrap;
+}
+.side-menu:hover {
+    width: 340px;
+}
+.div_side_menu {
+    width: 100%;
+    margin-left: -20px;
+    padding-left: 30px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.title {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 40px;
+    line-height: 30px;
+    color: rgb(58, 15, 15);
+}
+.div_side_menu i {
+    color: rgb(233, 14, 14);
+    font-size: 40px;
+    cursor: pointer;
+}
+.side-menu ul {
+    height: 100%;
+    list-style-type: none;
+}
+.side-menu ul li {
+    transition: .5s;
+}
+.side-menu ul li:hover {
+    background-color: rgba(106, 163, 196, 0.692);
+    border-radius: 35px;
+}
+.side-menu ul li a {
+    color: rgb(3, 75, 75);
+    text-decoration: none;
+    padding: 48px 3%;
+    display: flex;
+    line-height: 40px;
+}
+.side-menu ul li a .text_side_menu {
+    margin-left: 39px;
+}
+.side-menu ul li a .icons_side_menu {
+    font-size: 38px;
+    color: rgb(29, 116, 82);
+    margin-left: 10px;
+}

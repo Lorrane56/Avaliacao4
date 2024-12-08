@@ -1,0 +1,64 @@
+@media (max-width: 420px) {
+.side-menu {
+    width: 38px;
+    font-size: 15px;
+}
+.title {
+    font-size: 16px;
+    line-height: 20px;
+}
+.div_side_menu {
+    width: 100%;
+    padding-left: 5px;
+}
+.div_side_menu i {
+    font-size: 25px;
+    margin-left: 37%;
+}
+.side-menu ul li a {
+    padding: 25px 3%;
+}
+.side-menu ul li a .icons_side_menu {
+    font-size: 22px;
+    margin-left: -3px;
+}
+}
+
+@media (min-width: 420px) and (max-width: 750px) {
+.side-menu {
+    width: 37px;
+}
+.title {
+    font-size: 21px;
+    line-height: 20px;
+}
+.div_side_menu {
+    margin-left: -30px;
+}
+.div_side_menu i {
+    font-size: 29px;
+}
+.side-menu ul li a {
+    padding: 23px 3%;
+}
+.side-menu ul li a .icons_side_menu {
+    font-size: 22px;
+    margin-left: 2px;
+}
+}
+
+@media (min-width: 750px) and (max-width: 1250px) {
+.side-menu {
+    width: 57px;
+}
+.div_side_menu {
+    margin-left: -30px;
+}
+.side-menu ul li a {
+    padding: 43px 3%;
+}
+.side-menu ul li a .icons_side_menu {
+    font-size: 29px;
+    margin-left: 3px;
+}
+}

@@ -1,0 +1,152 @@
+.main_calendar {
+    background-color: rgb(255, 255, 255);
+    height: 750px;
+    margin-top: 20px;
+}
+.main_calendar div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_calendar h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(59, 139, 119);
+}
+.main_calendar img {
+    width: 576px;
+    height: 614px;
+    margin-top: 10px;
+    border: 1px solid;
+}
+.calendar {
+    margin-left: 140px;
+}
+.main_calendar i {
+    width: 35px;
+    height: 40px;
+    font-size: 30px;
+    margin: auto 60px;
+    cursor: pointer;
+}
+.main_calendar .main-arrow {
+    margin-left: 180px;
+}
+
+@media (max-width: 550px) {
+.main_calendar {
+    height: 510px;
+}
+.main_calendar h1 {
+    font-size: 15px;
+}
+.main_calendar img {
+    width: 189px;
+    height: 224px;
+}
+.main_calendar i {
+    font-size: 15px;
+    margin: auto 5px;
+}
+.calendar {
+    margin-right: 14px;
+    margin-left: 90px;
+}
+.main_calendar .main-arrow {
+    margin-left: 50px;
+}
+}
+@media (min-width: 550px) and (max-width: 600px) {
+.main_calendar {
+    height: 320px;
+}
+.main_calendar h1 {
+    font-size: 30px;
+}
+.main_calendar img {
+    width: 196px;
+    height: 234px;
+}
+.main_calendar i {
+    font-size: 18px;
+    margin: auto 10px;
+}
+.calendar {
+    margin-right: 14px;
+    margin-left: 10px;
+}
+.main_calendar .main-arrow {
+    margin-left: 20px;
+}
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+.main_calendar {
+    height: 450px;
+}
+.main_calendar h1 {
+    font-size: 30px;
+}
+.main_calendar img {
+    width: 256px;
+    height: 314px;
+}
+.main_calendar i {
+    font-size: 20px;
+    margin: auto 5px;
+}
+.calendar {
+    margin-right: 14px;
+    margin-left: 12px;
+}
+.main_calendar .main-arrow {
+    margin-left: 20px;
+}
+}
+@media (min-width: 900px) and (max-width: 1100px) {
+.main_calendar {
+    height: 450px;
+}
+.main_calendar h1 {
+    font-size: 35px;
+}
+.main_calendar img {
+    width: 316px;
+    height: 364px;
+}
+.main_calendar i {
+    font-size: 25px;
+    margin: auto 20px;
+}
+.calendar {
+    margin-right: 14px;
+    margin-left: 90px;
+}
+.main_calendar .main-arrow {
+    margin-left: 80px;
+}
+}
+@media (min-width: 1100px) and (max-width: 1300px) {
+.main_calendar {
+    height: 570px;
+}
+.main_calendar h1 {
+    font-size: 35px;
+}
+.main_calendar img {
+    width: 416px;
+    height: 484px;
+}
+.main_calendar i {
+    font-size: 25px;
+    margin: auto 20px;
+}
+.calendar {
+    margin-right: 14px;
+    margin-left: 100px;
+}
+.main_calendar .main-arrow {
+    margin-left: 90px;
+}
+}

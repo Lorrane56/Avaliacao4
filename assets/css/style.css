@@ -1,0 +1,21 @@
+@import url(style_header.css);
+@import url(style_body.css);
+@import url(style_footer.css);
+@import url(style_carrossel.css);
+@import url(style_calendario.css);
+@import url(style_menu_lateral.css);
+@import url(style_cursos.css);
+@import url(media_query_cursos.css);
+@import url(media_query_body.css);
+@import url(media_query_menu_lateral.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(0, 20, 20);
+    font-size: 20px;
+}
+
